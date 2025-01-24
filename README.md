@@ -4,7 +4,7 @@
 - Instructions and transactions being constructed & serialized on the fly.
 - Bonding curve pda and it's associated address derived from mint address instead of fetched.
 - Helper functions to convert USD into lamports, microlamports, or lamports to tokens.
-+ Staked Connection is necessary for ultra-fast transactions, preferably from `Helius`.
++ Staked Connection is necessary for ultra-fast transactions, preferably from [`Helius`](https://helius.dev).
 
 Easily build instructions for your transaction, or simply use built-in functions to make Pump.fun swaps.
 
