@@ -8,8 +8,6 @@
 PumpSwap is a Python module for interacting with Solana's Pump.fun tokens.
 Automatically build instructions for your transaction, or simply use built-in functions to make Pump.fun swaps.
 
-More information here: https://github.com/FLOCK4H/pump_swap
-
 ## Usage
 
 Example script:
