@@ -8,7 +8,46 @@
 
 Easily build instructions for your transaction, or simply use built-in functions to make Pump.fun swaps.
 
+## Setup
+
+The project was uploaded to PyPi, that means it's available via pip:
+
+```
+  $ pip install pump_swap
+```
+
+Another way:
+
+<h6>via setup.py file</h6>
+
+```
+  $ pip install solders solana borsh-construct aiohttp requests
+  $ git clone https://github.com/FLOCK4H/pump_swap
+  $ cd pump_swap
+  $ pip install .
+```
+
 ## Usage
+
+Classes:
+
+- PumpSwap(session: ClientSession, priv_key: str, rpc_endpoint: str, debug: bool = True)
+
+Methods:
+
+- get_solana_price_usd
+- fetch_wallet_balance_sol
+- build_buy_instruction
+- build_sell_instruction
+- make_check_ata
+- find_program_address
+- get_bonding_curve_pda
+- pump_buy
+- pump_sell
+- getTransaction
+- close
+
+Everything should be self-explanatory, look inside the source code for more answers or contact `FLOCK4H`.
 
 Example script:
 
