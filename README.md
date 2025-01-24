@@ -1,5 +1,10 @@
 # PumpSwap
 
+**Fastest Python Pump.fun swaps module**.
+- Instructions and transactions being constructed & serialized on the fly.
+- Bonding curve pda and it's associated address derived from mint address instead of fetched.
+- Staked API is needed for ultra-fast transactions, preferably from `Helius`.
+
 PumpSwap is a Python module for interacting with Solana's Pump.fun tokens.
 Automatically build instructions for your transaction, or simply use built-in functions to make Pump.fun swaps.
 
