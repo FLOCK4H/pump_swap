@@ -1,5 +1,8 @@
 # PumpSwap
 
+> [!IMPORTANT]
+> The name 'PumpSwap' isn't related to the new Pump.fun's PumpSwap AMM. This module was created before PumpSwap AMM existed, and it doesn't provide any way to interact with the new AMM. If you trading not migrated Pump.fun tokens then this module is suitable.
+
 **Fastest Python Pump.fun swaps module**.
 - Instructions and transactions being constructed & serialized on the fly.
 - Bonding curve pda and it's associated address derived from mint address instead of fetched.
