@@ -1,7 +1,7 @@
 # PumpSwap
 
 > [!IMPORTANT]
-> The name 'PumpSwap' isn't related to the new Pump.fun's PumpSwap AMM. This module was created before PumpSwap AMM existed, and it doesn't provide any way to interact with the new AMM. If you trading not migrated Pump.fun tokens then this module is suitable.
+> The name 'PumpSwap' isn't related to the new Pump.fun's PumpSwap AMM. This module was created before PumpSwap AMM existed, and it doesn't provide any way to interact with the new AMM. If you trading not migrated Pump.fun tokens then this module is suitable. **It's possible that I will combine two modules in the future, monitor PumpSwapAMM repo for updates.**
 
 **Fastest Python Pump.fun swaps module**.
 - Instructions and transactions being constructed & serialized on the fly.
